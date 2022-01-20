@@ -1,0 +1,22 @@
+{
+  "name": "rudenuadev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-img": "^1.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.1"
+  },
+  "dependencies": {
+    "eleventy-plugin-reading-time": "^0.0.1",
+    "luxon": "^2.3.0"
+  }
+}

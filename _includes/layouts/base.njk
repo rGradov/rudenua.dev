@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/style.css" />
+   <link rel="stylesheet" href="/css/code_highlight.css" /> 
+   {# use it for code highligh #}
+
+  <title>{{ title }}</title>
+</head>
+<body>
+  <header>
+    <header>{% include "navigation.njk" %}</header>
+  </header>
+  <main>
+    {{ content | safe }}
+  </main>
+</body>
+</html>
